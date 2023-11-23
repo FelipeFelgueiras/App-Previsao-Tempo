@@ -1,0 +1,84 @@
+body {
+    background-color: #EEEEEE;
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    background-color: #1f2949;
+    color: #ffffff;
+    max-width: 330px;
+    text-align: center;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 50px;
+}
+
+.busca {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.busca input {
+    background-color: #0a1435;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.busca .btn_busca {
+    background-color: #0a1435;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: 0.8;
+}
+
+.busca .lupa {
+    padding: 6px;
+    opacity: 0.8;
+    width: 30px;
+}
+
+.informacao_principal {
+    margin: 30px;
+}
+
+.informacao_principal h1 {
+    font-size: 18px;
+}
+
+.informacao_principal .temperatura {
+    font-size: 68px;
+    margin: 20px 0;
+}
+
+.informacao_principal .condicao {
+    font-size: 20px;
+}
+
+.informacao_secundaria {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 20px 30px;
+}
+
+.informacao_secundaria .humidade,
+.informacao_secundaria .velocidade_do_vento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
